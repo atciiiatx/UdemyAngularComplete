@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   displayDetails = false;
   detailsText = 'Secret Password = "tuna"';
-  clickTimes = []
+  clickTimes = [];
 
   onClick() {
     this.displayDetails = !this.displayDetails;
